@@ -2,15 +2,18 @@
   "name": "toolhub-editing",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
     "build": "run-p type-check build-only",
-    "preview": "vite preview --port 4173",
     "test:unit": "vitest --environment jsdom",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+    "dev": "vite",
+    "preview": "vite preview --port 4173",
+    "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false"
   },
   "dependencies": {
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3",
     "vue": "^2.7.7",
     "vue-router": "^3.5.4"
   },
@@ -33,6 +36,7 @@
     "typescript": "~4.7.4",
     "vite": "^3.0.2",
     "vitest": "^0.18.1",
+    "vue-cli-plugin-tailwind": "~3.0.0",
     "vue-template-compiler": "^2.7.7",
     "vue-tsc": "^0.38.8"
   }

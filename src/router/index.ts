@@ -14,13 +14,45 @@ const router = new VueRouter({
       component: HomeView,
     },
     {
-      path: "/about",
-      name: "about",
+      path: "/leader-board",
+      name: "leader-board",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import("../views/AboutView.vue"),
+      component: () => import("../views/LeaderBoard.vue"),
     },
+    {
+      path: "/records-dashboard",
+      name: "records",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/RecordsView.vue"),
+    },
+    {
+      path: "/tool-details",
+      name: "tool-details",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/ToolDetails.vue"),
+    },
+    {
+      path: "/edit-tool",
+      name: "edit-tool",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/EditTool.vue"),
+    },
+    // {
+    //   path: "/about",
+    //   name: "about",
+    //   // route level code-splitting
+    //   // this generates a separate chunk (About.[hash].js) for this route
+    //   // which is lazy-loaded when the route is visited.
+    //   component: () => import("../views/AboutView.vue"),
+    // },
   ],
 });
 
