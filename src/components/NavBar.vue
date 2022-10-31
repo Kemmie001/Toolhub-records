@@ -11,7 +11,7 @@ const showNav = () => {
     class="font-open font-thin z-20 fixed md:relative md:flex w-full text-white bg-primary capitalize text-lg md:px-16 px-5"
   >
     <div class="flex items-center justify-between md:w-1/3">
-      <a href="/">logo</a>
+      <a href="/"><img class="w-16" src="../assets/metawiki.webp" alt="logo"></a>
       <div @click="showNav" class="md:hidden cursor-pointer pt-4 pb-2">
         <i class="fa fa-bars" aria-hidden="true"></i>
       </div>

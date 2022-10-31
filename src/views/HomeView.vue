@@ -256,7 +256,7 @@ components:{
     
     <div class="px-5 md:px-16">
     <div class="pt-20 md:flex justify-between w-full" >
-    <h3 class="text-xl pb-5 md:pb-0 font-semibold">Homepage</h3>
+    <h3 class="text-2xl pb-5 md:pb-0 font-semibold">Homepage</h3>
     <div class="flex gap-x-4">
       <div class="text-ash search flex">
         
@@ -274,7 +274,7 @@ components:{
       
     </div>
     </div>
-    <h3 class="text-lg font-semibold py-5">Management Tools</h3>
+    <h3 class="text-lg font-semibold py-5">Available Tools</h3>
 
     <div class="py-4 relative">
       <div class="carousel mb-5">

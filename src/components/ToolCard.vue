@@ -35,6 +35,11 @@ const props = defineProps({
             }}</span>
           </p>
         </div>
+        <button  v-if="missing"
+              class="border-2 ml-auto rounded-md border-secondary mt-2 text-secondary px-3 py-2"
+            >
+               <router-link to="/edit-tool">Edit Tool</router-link>
+            </button>
       </div>
     </div>
   </router-link>
@@ -52,7 +57,7 @@ const props = defineProps({
 }
 .card {
   width: 340px;
-  height: 200px;
+  height: 240px;
   background: #fff;
   /* box-shadow: 0 5px 15px rgba(0, 0, 0, 15%); */
 }

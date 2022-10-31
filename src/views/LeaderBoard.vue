@@ -8,7 +8,7 @@
             <tr class="uppercase text-sm tracking-widest">
               <th class="w-1/12">S/N</th>
               <th class="w-3/12">Name</th>
-              <th class="w-2/12">Tools</th>
+              <th class="w-2/12">Tool</th>
               <th class="w-3/12">Number of Edits</th>
               <th class="w-3/12">Date</th>
             </tr>
